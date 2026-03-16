@@ -1,22 +1,36 @@
 import random
 
-nome = input("Qual seu nome?")
+print("Ola mundo!")
+print(7+4)
+print("7+4")
+print("7" + "4")
 
+nomeGuardado = "Tom"
+idadeGuardada = 17
+pesoGuardado = 79.5
+
+print(nomeGuardado, idadeGuardada, pesoGuardado)
+print(f"Oi, {nomeGuardado}. Como vai??")
+
+nome = input("Qual seu nome?")
 print("Bem vindo " + nome)
 
 anoNascimento = input("Que ano nasceu?")
 mesNascimento = input("Que mes nasceu?")
 diaNascimento = input("Que dia nasceu?")
-
 print(f"Nasceu em {diaNascimento}/{mesNascimento}/{anoNascimento}")
 
-
+numero1 = int(input("Digite o primeiro numero a ser somado."))
+numero2 = int(input("Digite o segundo numero a ser somado."))
+numeroSoma = numero1 + numero2
+print(f"A soma é de {numeroSoma}")
 
 
 raio = 5
 pi = 3.14159
 
-area = print(pi*raio**2)
+area = (pi*raio**2)
+print(area)
 
 temp = 68
 
